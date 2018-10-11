@@ -5,6 +5,8 @@
       <th scope="col">Id</th>
       <th scope="col">Name</th>
       <th scope="col">Code</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
     </thead>
     <tbody>
       <tr *ngFor="let hiveSection of hiveSections">
@@ -13,7 +15,13 @@
           <td>{{hiveSection.code}}</td>
           <td>
             <span class="btn-toolbar" role="toolbar" aria-label="Hive action buttons" style="display: block; white-space:nowrap;">
-              <div class="btn-group" role="group" aria-label="Edit group">
+              <div class="btn-group mr-2" role="group" aria-label="Delete group" *ngIf="!hiveSection.isDeleted" (click)="onDelete(hiveSection.id)">
+                <button type="button" class="btn btn-danger">Delete</button>
+              </div>
+              <div class="btn-group mr-2" role="group" aria-label="Undelete group" *ngIf="hiveSection.isDeleted" (click)="onUnDelete(hiveSection.id)">
+                <button type="button" class="btn btn-warning">Undelete</button>
+              </div>
+              <div class="btn-group mr-2" role="group" aria-label="Edit group">
                 <button routerLink="/section/{{hiveSection.id}}" type="button" class="btn btn-primary">Edit</button>
               </div>
             </span>
