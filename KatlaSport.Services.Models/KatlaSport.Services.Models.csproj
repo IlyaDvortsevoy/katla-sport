@@ -7,7 +7,7 @@
     <ProjectGuid>{FBCA4661-79C9-4B45-9361-430B0C84F5EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KatlaSport.Services</RootNamespace>
+    <RootNamespace>KatlaSport.Services.Models</RootNamespace>
     <AssemblyName>KatlaSport.Services.Models</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace KatlaSport.Services.ProductManagement
+namespace KatlaSport.Services.Models.ProductManagement
 {
     /// <summary>
     /// Represents a validator for <see cref="UpdateProductCategoryRequest"/>.
