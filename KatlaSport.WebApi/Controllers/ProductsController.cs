@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using KatlaSport.Services.ProductManagement;
+using KatlaSport.Services.Models.ProductManagement;
 using KatlaSport.WebApi.CustomFilters;
 using Microsoft.Web.Http;
 using Swashbuckle.Swagger.Annotations;

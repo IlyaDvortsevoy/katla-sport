@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using KatlaSport.DataAccess;
 using KatlaSport.DataAccess.ProductCatalogue;
+using KatlaSport.Services.Models.ProductManagement;
 using DbProduct = KatlaSport.DataAccess.ProductCatalogue.CatalogueProduct;
 
 namespace KatlaSport.Services.ProductManagement

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace KatlaSport.Services.HiveManagement
+namespace KatlaSport.Services.Models.HiveManagement
 {
     /// <summary>
     /// Represents a hive service.

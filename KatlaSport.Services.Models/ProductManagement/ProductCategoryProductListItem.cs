@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KatlaSport.Services.ProductManagement
+namespace KatlaSport.Services.Models.ProductManagement
 {
     /// <summary>
     /// Represents a product.

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace KatlaSport.Services.ProductManagement
+namespace KatlaSport.Services.Models.ProductManagement
 {
     /// <summary>
     /// Represents a product catalogue service.

@@ -1,5 +1,6 @@
 ﻿using System;
 using AutoMapper;
+using KatlaSport.Services.Models.ProductManagement;
 using DataAccessProduct = KatlaSport.DataAccess.ProductCatalogue.CatalogueProduct;
 using DataAccessProductCategory = KatlaSport.DataAccess.ProductCatalogue.ProductCategory;
 
